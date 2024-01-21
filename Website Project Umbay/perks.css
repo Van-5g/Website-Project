@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer {
+    width: 100%;
+    height: 150px;
+    background-color: hsl(0, 67%, 21%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.inner {
+    border: 2px solid;
+    width: calc(80% - 20px);
+    max-width: 600px;
+    height: auto;
+    font-size: 15px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: hsl(0, 48%, 40%);
+    position: absolute;
+    margin-top: 1%;
+    left: 10%;
+    margin-bottom: 10%;
+    right: 10%;
+}
+
+.back {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsla(248, 78%, 20%);
+    color: hsla(212, 91%, 57%);
+    border-radius: 10px;
+    margin-bottom: 50%;
+}
+
+.blue {
+    width: 300px;
+    height: 75px; 
+    background-color: #b11e0d; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 10px solid tomato;
+}
+
+.blue p {
+    color: #faecec;
+    font-size: 24px;
+    margin: 10%;
+}
+
+
+
+.bsmk {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bsmk p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.smk {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbsmk{
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: 3%;
+    border: 10px solid #000;
+}
+
+.dsmk {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.btro {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btro p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.tro {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbtro {
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: 3%;
+    border: 10px solid #000;
+}
+
+.dtro {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.bst {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bst p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.st {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbst {
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 17%;
+    margin-top: 3%;
+    border: 10px solid #000;
+    margin-bottom: 10%;
+}
+
+.dst {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box {
+    width: 300px; 
+    height: 75px; 
+    background-color: #b11e0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 10px solid tomato;
+
+}
+
+.box p {
+    color: #faecec;
+    font-size: 24px;
+    margin: 10%;
+}
+
+
+
+.btr {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btr p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.tr {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbtr {
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: 3%;
+    border: 10px solid #000;
+}
+
+.dtr {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.bm {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bm p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.m {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbm {
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: 3%;
+    border: 10px solid #000;
+}
+
+.dm {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.bc {
+    width: 100px;
+    height: 100px;
+    background-color: #ce6029;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #ffac7f;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.bc p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.c {
+    max-width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 10px solid #000;
+}
+.dbc {
+    width: 1000px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    border: 10px solid #000;
+}
+
+.dc {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
